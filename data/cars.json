@@ -11,23 +11,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": true,
+    "driver": "with-driver",
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Cruise Control",
-      "Tinted Glass",
-      "Tinted Glass",
-      "Tinted Glass",
-      "AM/FM Stereo"
-    ],
-    "specs": [
-      "Brake assist",
-      "Leather-wrapped shift knob",
-      "Glove box lamp",
-      "Air conditioning w/in-cabin microfilter",
-      "Body color folding remote-controlled pwr mirrors",
-      "Dual-stage front airbags w/occupant classification system"
-    ]
+    "options": ["Cruise Control", "Tinted Glass", "Tinted Glass", "Tinted Glass", "AM/FM Stereo"],
+    "specs": ["Brake assist", "Leather-wrapped shift knob", "Glove box lamp", "Air conditioning w/in-cabin microfilter", "Body color folding remote-controlled pwr mirrors", "Dual-stage front airbags w/occupant classification system"]
   },
   {
     "id": "9ff03bbc-b18c-4ba7-8f3a-4c4b5c2f6c77",
@@ -41,22 +29,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "with-driver",
     "type": "Convertible",
     "year": 2019,
-    "options": [
-      "Keyless Entry",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "CD (Multi Disc)",
-      "Navigation"
-    ],
-    "specs": [
-      "Rear passenger map pockets",
-      "Electrochromic rearview mirror",
-      "Dual chrome exhaust tips",
-      "Locking glove box",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Keyless Entry", "Power Windows", "MP3 (Single Disc)", "CD (Multi Disc)", "Navigation"],
+    "specs": ["Rear passenger map pockets", "Electrochromic rearview mirror", "Dual chrome exhaust tips", "Locking glove box", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
@@ -70,17 +47,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": "with-driver",
     "type": "Sedan",
     "year": 2021,
-    "options": [
-      "Bucket Seats",
-      "Airbag: Passenger",
-      "Airbag: Driver",
-      "Power Seats",
-      "Airbag: Side",
-      "Antilock Brakes",
-      "CD (Multi Disc)"
-    ],
+    "options": ["Bucket Seats", "Airbag: Passenger", "Airbag: Driver", "Power Seats", "Airbag: Side", "Antilock Brakes", "CD (Multi Disc)"],
     "specs": [
       "Driver & front passenger map pockets",
       "Direct-type tire pressure monitor system",
@@ -104,19 +74,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": "with-driver",
     "type": "Hatchback",
     "year": 2018,
-    "options": [
-      "Alloy Wheels",
-      "Power Locks",
-      "A/C: Rear",
-      "MP3 (Single Disc)",
-      "Airbag: Driver",
-      "A/C: Front",
-      "Tinted Glass",
-      "Alloy Wheels",
-      "Alarm"
-    ],
+    "options": ["Alloy Wheels", "Power Locks", "A/C: Rear", "MP3 (Single Disc)", "Airbag: Driver", "A/C: Front", "Tinted Glass", "Alloy Wheels", "Alarm"],
     "specs": [
       "6.1L SRT V8 \"Hemi\" engine",
       "Multi-info display -inc: driving range, average MPG, current MPG, average speed, outside temp, elapsed time, maintenance & diagnostic messages",
@@ -138,22 +99,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "with-driver",
     "type": "Minivan",
     "year": 2020,
-    "options": [
-      "CD (Multi Disc)",
-      "Cruise Control",
-      "Power Locks",
-      "Alloy Wheels",
-      "Tow Package"
-    ],
-    "specs": [
-      "Body color sill extension",
-      "Torsion beam rear suspension w/stabilizer bar",
-      "Front & rear passenger folding assist grips",
-      "Electronic control braking (ECB)",
-      "Black windshield molding"
-    ]
+    "options": ["CD (Multi Disc)", "Cruise Control", "Power Locks", "Alloy Wheels", "Tow Package"],
+    "specs": ["Body color sill extension", "Torsion beam rear suspension w/stabilizer bar", "Front & rear passenger folding assist grips", "Electronic control braking (ECB)", "Black windshield molding"]
   },
   {
     "id": "3eead6db-c536-406b-9bc5-85d4c6e38a76",
@@ -167,15 +117,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": "with-driver",
     "type": "Hatchback",
     "year": 2016,
-    "options": [
-      "Leather Interior",
-      "A/C: Rear",
-      "CD (Multi Disc)",
-      "Airbag: Side",
-      "MP3 (Multi Disc)"
-    ],
+    "options": ["Leather Interior", "A/C: Rear", "CD (Multi Disc)", "Airbag: Side", "MP3 (Multi Disc)"],
     "specs": [
       "Tilt steering column",
       "Carpeted cargo area",
@@ -197,16 +142,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "with-driver",
     "type": "Sedan",
     "year": 2020,
-    "options": [
-      "AM/FM Stereo",
-      "Power Windows",
-      "Power Locks",
-      "Power Windows",
-      "MP3 (Single Disc)",
-      "A/C: Rear"
-    ],
+    "options": ["AM/FM Stereo", "Power Windows", "Power Locks", "Power Windows", "MP3 (Single Disc)", "A/C: Rear"],
     "specs": [
       "Silver finish interior door handles",
       "160-amp alternator",
@@ -230,23 +169,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": "with-driver",
     "type": "Regular Cab Pickup",
     "year": 2014,
-    "options": [
-      "Fog Lights",
-      "Memory Seats",
-      "Rear Window Defroster",
-      "Integrated Phone",
-      "Power Locks",
-      "A/C: Rear"
-    ],
-    "specs": [
-      "XM satellite radio receiver -inc: 90 day trial subscription",
-      "Dual front illuminated visor vanity mirrors",
-      "Front door tinted glass",
-      "Body color door handles",
-      "Chrome bodyside molding"
-    ]
+    "options": ["Fog Lights", "Memory Seats", "Rear Window Defroster", "Integrated Phone", "Power Locks", "A/C: Rear"],
+    "specs": ["XM satellite radio receiver -inc: 90 day trial subscription", "Dual front illuminated visor vanity mirrors", "Front door tinted glass", "Body color door handles", "Chrome bodyside molding"]
   },
   {
     "id": "0d5de078-a5fc-456b-9487-47eb450a01c6",
@@ -260,17 +187,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "with-driver",
     "type": "Extended Cab Pickup",
     "year": 2012,
-    "options": [
-      "CD (Multi Disc)",
-      "Keyless Entry",
-      "Cassette Player",
-      "Power Windows",
-      "Rear Window Wiper",
-      "CD (Single Disc)",
-      "Third Row Seats"
-    ],
+    "options": ["CD (Multi Disc)", "Keyless Entry", "Cassette Player", "Power Windows", "Rear Window Wiper", "CD (Single Disc)", "Third Row Seats"],
     "specs": [
       "Rear reading & courtesy lamps",
       "Zone body construction -inc: front/rear crumple zones, hood deformation point",
@@ -292,15 +212,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": "with-driver",
     "type": "Hatchback",
     "year": 2019,
-    "options": [
-      "Third Row Seats",
-      "Bucket Seats",
-      "Integrated Phone",
-      "Navigation",
-      "Leather Interior"
-    ],
+    "options": ["Third Row Seats", "Bucket Seats", "Integrated Phone", "Navigation", "Leather Interior"],
     "specs": [
       "Cargo compartment lamp",
       "Body color fascias w/bright insert",
@@ -321,26 +236,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "with-driver",
     "type": "Coupe",
     "year": 2019,
-    "options": [
-      "Alloy Wheels",
-      "Power Windows",
-      "Alloy Wheels",
-      "Alloy Wheels",
-      "Alarm",
-      "Bucket Seats",
-      "Bucket Seats"
-    ],
-    "specs": [
-      "Cloth covered headliner",
-      "Sentry Key theft deterrent system",
-      "Air conditioning w/in-cabin microfilter",
-      "Driver & front passenger map pockets",
-      "Security alarm",
-      "Dual bright exhaust tips",
-      "Compact spare tire"
-    ]
+    "options": ["Alloy Wheels", "Power Windows", "Alloy Wheels", "Alloy Wheels", "Alarm", "Bucket Seats", "Bucket Seats"],
+    "specs": ["Cloth covered headliner", "Sentry Key theft deterrent system", "Air conditioning w/in-cabin microfilter", "Driver & front passenger map pockets", "Security alarm", "Dual bright exhaust tips", "Compact spare tire"]
   },
   {
     "id": "e0a96736-a2d5-40ca-87de-64b59cac85d8",
@@ -354,19 +254,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": "with-driver",
     "type": "Passenger Van",
     "year": 2018,
-    "options": [
-      "Premium Sound",
-      "Fog Lights",
-      "Premium Sound",
-      "Airbag: Side",
-      "Power Seats",
-      "Power Steering",
-      "Airbag: Driver",
-      "Power Steering",
-      "Alarm"
-    ],
+    "options": ["Premium Sound", "Fog Lights", "Premium Sound", "Airbag: Side", "Power Seats", "Power Steering", "Airbag: Driver", "Power Steering", "Alarm"],
     "specs": [
       "Multi-reflector halogen headlamps",
       "Speed control",
@@ -390,22 +281,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": true,
+    "driver": "non-driver",
     "type": "SUV",
     "year": 2017,
-    "options": [
-      "Memory Seats",
-      "Cassette Player",
-      "Alarm",
-      "Power Steering",
-      "Keyless Entry"
-    ],
-    "specs": [
-      "Leather-wrapped shift knob",
-      "Dual front illuminated visor vanity mirrors",
-      "Battery saver",
-      "Driver & front passenger map pockets",
-      "Deluxe insulation group"
-    ]
+    "options": ["Memory Seats", "Cassette Player", "Alarm", "Power Steering", "Keyless Entry"],
+    "specs": ["Leather-wrapped shift knob", "Dual front illuminated visor vanity mirrors", "Battery saver", "Driver & front passenger map pockets", "Deluxe insulation group"]
   },
   {
     "id": "c18a5545-2ce2-4330-aa3b-1bbcf6247519",
@@ -419,25 +299,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": false,
+    "driver": "non-driver",
     "type": "Regular Cab Pickup",
     "year": 2020,
-    "options": [
-      "Bucket Seats",
-      "Power Seats",
-      "CD (Multi Disc)",
-      "Bucket Seats",
-      "Navigation",
-      "Rear Window Defroster",
-      "Fog Lights"
-    ],
-    "specs": [
-      "Front/rear side curtain airbags",
-      "Front & rear side curtain airbags",
-      "Body color front license plate brow",
-      "Rear body-color spoiler",
-      "Reversible/waterproof cargo storage",
-      "Front & rear side curtain airbags"
-    ]
+    "options": ["Bucket Seats", "Power Seats", "CD (Multi Disc)", "Bucket Seats", "Navigation", "Rear Window Defroster", "Fog Lights"],
+    "specs": ["Front/rear side curtain airbags", "Front & rear side curtain airbags", "Body color front license plate brow", "Rear body-color spoiler", "Reversible/waterproof cargo storage", "Front & rear side curtain airbags"]
   },
   {
     "id": "72530cba-051d-49d8-822b-deaf2e5330ca",
@@ -451,28 +317,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": "non-driver",
     "type": "Regular Cab Pickup",
     "year": 2017,
-    "options": [
-      "Third Row Seats",
-      "CD (Single Disc)",
-      "Alloy Wheels",
-      "A/C: Front",
-      "Power Windows",
-      "A/C: Front",
-      "Memory Seats",
-      "Cruise Control",
-      "CD (Single Disc)"
-    ],
-    "specs": [
-      "Remote fuel lid release",
-      "Electronic parking brake",
-      "Daytime running lights (DRL)",
-      "Silver finish interior door handles",
-      "Back-up camera",
-      "Highline door trim panel",
-      "Pwr front vented disc/rear drum brakes"
-    ]
+    "options": ["Third Row Seats", "CD (Single Disc)", "Alloy Wheels", "A/C: Front", "Power Windows", "A/C: Front", "Memory Seats", "Cruise Control", "CD (Single Disc)"],
+    "specs": ["Remote fuel lid release", "Electronic parking brake", "Daytime running lights (DRL)", "Silver finish interior door handles", "Back-up camera", "Highline door trim panel", "Pwr front vented disc/rear drum brakes"]
   },
   {
     "id": "79cc327b-2b0f-4042-acdf-78386b2f8ebd",
@@ -486,23 +335,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": "non-driver",
     "type": "Convertible",
     "year": 2021,
-    "options": [
-      "Leather Interior",
-      "Alloy Wheels",
-      "MP3 (Single Disc)",
-      "Airbag: Driver",
-      "Cruise Control",
-      "Cassette Player"
-    ],
-    "specs": [
-      "Rear window defroster",
-      "High performance suspension",
-      "1.8L DOHC 16-valve I4 engine -inc: engine cover",
-      "Air conditioning w/in-cabin microfilter",
-      "4-wheel ventilated pwr disc brakes -inc: brake override system"
-    ]
+    "options": ["Leather Interior", "Alloy Wheels", "MP3 (Single Disc)", "Airbag: Driver", "Cruise Control", "Cassette Player"],
+    "specs": ["Rear window defroster", "High performance suspension", "1.8L DOHC 16-valve I4 engine -inc: engine cover", "Air conditioning w/in-cabin microfilter", "4-wheel ventilated pwr disc brakes -inc: brake override system"]
   },
   {
     "id": "22c969a7-04ce-4efb-a479-7ab3bc094cb9",
@@ -516,16 +353,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": false,
+    "driver": "non-driver",
     "type": "Regular Cab Pickup",
     "year": 2015,
-    "options": [
-      "Alarm",
-      "Airbag: Passenger",
-      "Cassette Player",
-      "Moonroof/Sunroof",
-      "Moonroof/Sunroof",
-      "Antilock Brakes"
-    ],
+    "options": ["Alarm", "Airbag: Passenger", "Cassette Player", "Moonroof/Sunroof", "Moonroof/Sunroof", "Antilock Brakes"],
     "specs": [
       "Energy absorbing steering column",
       "3-point ELR/ALR front passenger seat belt w/pretensioner & load limiter",
@@ -549,18 +380,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": false,
+    "driver": "non-driver",
     "type": "Sedan",
     "year": 2014,
-    "options": [
-      "Moonroof/Sunroof",
-      "Cassette Player",
-      "Antilock Brakes",
-      "Antilock Brakes",
-      "Memory Seats",
-      "MP3 (Single Disc)",
-      "Leather Interior",
-      "CD (Single Disc)"
-    ],
+    "options": ["Moonroof/Sunroof", "Cassette Player", "Antilock Brakes", "Antilock Brakes", "Memory Seats", "MP3 (Single Disc)", "Leather Interior", "CD (Single Disc)"],
     "specs": [
       "3-point ELR/ALR front passenger seat belt w/pretensioner & load limiter",
       "Rear passenger map pockets",
@@ -582,17 +405,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "non-driver",
     "type": "Convertible",
     "year": 2021,
-    "options": [
-      "CD (Single Disc)",
-      "Airbag: Driver",
-      "Antilock Brakes",
-      "CD (Single Disc)",
-      "A/C: Rear",
-      "Memory Seats",
-      "Third Row Seats"
-    ],
+    "options": ["CD (Single Disc)", "Airbag: Driver", "Antilock Brakes", "CD (Single Disc)", "A/C: Rear", "Memory Seats", "Third Row Seats"],
     "specs": [
       "All-position 3-point seat belts -inc: outboard pretensioners & force limiters, dual front pwr shoulder height adjusters, rear outboard emergency auto locking retractors, driver emergency locking retractor",
       "Body color door handles",
@@ -617,15 +433,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "non-driver",
     "type": "Crew Cab Pickup",
     "year": 2012,
-    "options": [
-      "Navigation",
-      "Rear Window Wiper",
-      "Tow Package",
-      "MP3 (Multi Disc)",
-      "Bucket Seats"
-    ],
+    "options": ["Navigation", "Rear Window Wiper", "Tow Package", "MP3 (Multi Disc)", "Bucket Seats"],
     "specs": [
       "Pwr accessory delay",
       "Tire pressure monitoring system (TPMS)",
@@ -648,23 +459,11 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": false,
+    "driver": "non-driver",
     "type": "SUV",
     "year": 2013,
-    "options": [
-      "Memory Seats",
-      "Integrated Phone",
-      "Airbag: Driver",
-      "Leather Interior",
-      "Cassette Player",
-      "Airbag: Passenger"
-    ],
-    "specs": [
-      "Floor carpeting",
-      "Electric speed-sensitive variable-assist pwr steering",
-      "Dana 44/226mm rear axle",
-      "Roof mounted antenna",
-      "Fixed long mast antenna"
-    ]
+    "options": ["Memory Seats", "Integrated Phone", "Airbag: Driver", "Leather Interior", "Cassette Player", "Airbag: Passenger"],
+    "specs": ["Floor carpeting", "Electric speed-sensitive variable-assist pwr steering", "Dana 44/226mm rear axle", "Roof mounted antenna", "Fixed long mast antenna"]
   },
   {
     "id": "fc1d3297-ab17-40a9-a79c-ca7307ed5faa",
@@ -678,18 +477,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "non-driver",
     "type": "Coupe",
     "year": 2020,
-    "options": [
-      "Memory Seats",
-      "Power Locks",
-      "Fog Lights",
-      "Tinted Glass",
-      "Rear Window Wiper",
-      "Airbag: Passenger",
-      "Power Locks",
-      "Tow Package"
-    ],
+    "options": ["Memory Seats", "Power Locks", "Fog Lights", "Tinted Glass", "Rear Window Wiper", "Airbag: Passenger", "Power Locks", "Tow Package"],
     "specs": [
       "Pwr front vented disc/rear drum brakes",
       "Pwr windows -inc: 1-touch open/close",
@@ -713,18 +504,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "non-driver",
     "type": "Extended Cab Pickup",
     "year": 2022,
-    "options": [
-      "Rear Window Defroster",
-      "MP3 (Single Disc)",
-      "Power Steering",
-      "Antilock Brakes",
-      "Tow Package",
-      "Fog Lights",
-      "AM/FM Stereo",
-      "Alarm"
-    ],
+    "options": ["Rear Window Defroster", "MP3 (Single Disc)", "Power Steering", "Antilock Brakes", "Tow Package", "Fog Lights", "AM/FM Stereo", "Alarm"],
     "specs": [
       "Intermittent rear wiper w/washer",
       "Energy absorbing front/rear bumpers",
@@ -749,17 +532,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": "non-driver",
     "type": "Sedan",
     "year": 2022,
-    "options": [
-      "Moonroof/Sunroof",
-      "Power Seats",
-      "CD (Single Disc)",
-      "Airbag: Passenger",
-      "Alarm",
-      "Power Seats",
-      "Cruise Control"
-    ],
+    "options": ["Moonroof/Sunroof", "Power Seats", "CD (Single Disc)", "Airbag: Passenger", "Alarm", "Power Seats", "Cruise Control"],
     "specs": [
       "200mm front axle",
       "Roof mounted antenna",
@@ -781,25 +557,10 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": false,
+    "driver": "with-driver",
     "type": "Wagon",
     "year": 2015,
-    "options": [
-      "CD (Single Disc)",
-      "Airbag: Passenger",
-      "A/C: Front",
-      "Power Locks",
-      "Navigation",
-      "Rear Window Defroster",
-      "Rear Window Defroster",
-      "MP3 (Single Disc)",
-      "Airbag: Side"
-    ],
-    "specs": [
-      "Electric speed-sensitive variable-assist pwr steering",
-      "Steel side-door impact beams",
-      "Dual bright exhaust tips",
-      "Remote fuel lid release",
-      "Traveler/mini trip computer"
-    ]
+    "options": ["CD (Single Disc)", "Airbag: Passenger", "A/C: Front", "Power Locks", "Navigation", "Rear Window Defroster", "Rear Window Defroster", "MP3 (Single Disc)", "Airbag: Side"],
+    "specs": ["Electric speed-sensitive variable-assist pwr steering", "Steel side-door impact beams", "Dual bright exhaust tips", "Remote fuel lid release", "Traveler/mini trip computer"]
   }
 ]
