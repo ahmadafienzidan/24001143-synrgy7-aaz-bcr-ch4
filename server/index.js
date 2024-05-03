@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = 3000;
 
 const server = http.createServer((req, res) => {
-  // Menangani permintaan untuk halaman utama
+  // Index
   if (req.url === "/" || req.url === "/index.html") {
     fs.readFile(path.join(__dirname, "../public/index.html"), (err, data) => {
       if (err) {
@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
       }
     });
   }
-  // Menangani permintaan untuk halaman "car.html"
+  // Cars
   else if (req.url === "/cars.html") {
     fs.readFile(path.join(__dirname, "../public/cars.html"), (err, data) => {
       if (err) {
@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
     });
   }
 
-  // Menangani permintaan untuk file CSS atau JavaScript lainnya
+  // CSS JS
   else if (req.url.match(/\.(css|js)$/)) {
     const contentType = req.url.endsWith(".css") ? "text/css" : "text/javascript";
     // console.log(contentType);
@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
       }
     });
   }
-  // Menangani permintaan untuk file gambar
+  // ALl Image
   else if (req.url.match(/\.(jpg|jpeg|png|gif)$/)) {
     const ext = path.extname(req.url);
     const contentType = `image/${ext.slice(1)}`; // Menentukan tipe konten berdasarkan ekstensi gambar
@@ -61,7 +61,7 @@ const server = http.createServer((req, res) => {
     });
   }
 
-  // Menangani permintaan lainnya
+  // Error
   else {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("Not Found");
