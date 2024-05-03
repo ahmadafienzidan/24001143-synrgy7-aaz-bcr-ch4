@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sewa dan Rental Mobil Terbaik di Kawasanmu</title>
+    <link rel="stylesheet" href="src/css/output.css" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="navbar" class="bg-[#F1F3FF]">
+      <div class="container mx-auto">
+        <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-[#F1F3FF]text-sm py-4">
+          <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+            <div class="flex items-center justify-between">
+              <a class="flex-none" href="#main">
+                <img src="assets/img/rectangle.png" alt="" />
+              </a>
+              <div class="sm:hidden">
+                <button
+                  id="toggleOffcanvas"
+                  data-hs-overlay="#hs-overlay-right"
+                  type="button"
+                  class="p-2 inline-flex justify-center items-center gap-x-2 rounded-lg shadow-sm disabled:opacity-50 disabled:pointer-events-none"
+                  aria-label="Toggle offcanvas"
+                >
+                  <svg
+                    class="hs-collapse-open:hidden flex-shrink-0 size-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="3" x2="21" y1="6" y2="6" />
+                    <line x1="3" x2="21" y1="12" y2="12" />
+                    <line x1="3" x2="21" y1="18" y2="18" />
+                  </svg>
+                  <svg
+                    class="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M18 6 6 18" />
+                    <path d="m6 6 12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+              <div class="flex flex-col gap-7 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+                <a class="font-medium text-[14px]" href="#service">Our Services</a>
+                <a class="font-medium text-[14px]" href="#whyus">Why Us</a>
+                <a class="font-medium text-[14px]" href="#testimonial">Testimonial</a>
+                <a class="font-medium text-[14px]" href="#faq">FAQ</a>
+                <button class="bg-green-600 hover:bg-green-900 text-white text-center font-bold py-2 px-4 rounded text-sm max-w-[81px] h-auto">Register</button>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <div id="hs-overlay-right" class="hs-overlay hs-overlay-open:translate-x-0 hidden translate-x-full fixed top-0 end-0 transition-all duration-300 transform h-full max-w-xs w-[200px] z-[80] bg-white border-s" tabindex="-1">
+          <div class="flex justify-between items-center py-3 px-4 border-b-0">
+            <h3 class="font-bold">BCR</h3>
+            <button
+              type="button"
+              class="flex justify-center items-center size-7 text-sm font-semibold rounded-full border border-transparent hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
+              data-hs-overlay="#hs-overlay-right"
+            >
+              <span class="sr-only"></span>
+              <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="mx-4 flex flex-col">
+            <a class="font-medium text-[14px] mb-3" href="#service">Our Services</a>
+            <a class="font-medium text-[14px] mb-3" href="#whyus">Why Us</a>
+            <a class="font-medium text-[14px] mb-3" href="#testimonial">Testimonial</a>
+            <a class="font-medium text-[14px] mb-3" href="#faq">FAQ</a>
+            <button class="bg-green-600 hover:bg-green-900 text-white text-center font-bold py-2 px-4 rounded mt-3 text-sm max-w-[81px] h-auto">Register</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Navbar -->
+
+    <!-- HeroSection -->
+    <section id="main" class="relative md:h-[400px] flex items-center bg-[#F1F3FF]">
+      <div class="container md:flex md:max-w-none mx-auto pt-[80px] md:pt-0">
+        <div class="container md:flex md:mx-auto">
+          <div class="md:w-1/2 container items-center px-5 -mt-10 md:mt-0">
+            <div class="font-sans text-4xl font-bold md:mb-4">Sewa & Rental Mobil Terbaik di kawasan Surabaya</div>
+            <p class="font-light text-[14px] mt-5">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+            <button class="bg-green-600 hover:bg-green-900 text-white font-bold py-2 px-4 rounded mt-3 text-sm">Mulai Sewa Mobil</button>
+          </div>
+          <div class="md:w-1/2 flex justify-end items-end">
+            <img src="assets/img/img_car.png" alt="" class="md:absolute right-0 bottom-0 w-[344.22px] h-auto lg:w-[525px] md:w-[450px] xl:w-[700px]" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /HeroSection -->
+
+    <!-- FilterCar -->
+    <section id="filtercar" class="mx-auto max-w-[80%] bg-white md:h-28 h-[320px] mt-12 border rounded-lg px-5 py-4 -translate-y-28">
+      <div class="container flex items-center text-center md:items-start md:text-start flex-col md:flex-row space-x-4 w-full justify-center">
+        <div class="w-56">
+          <label class="mb-2 block text-sm">Tipe Driver</label>
+          <select placeholder="Pilih Tipe Driver" class="h-12 md:w-full w-max-[50%] border rounded-lg text-sm px-3" id="driver">
+            <option selected="" class="text-gray-500">Pilih Tipe Driver</option>
+            <option value="with-driver">Dengan Sopir</option>
+            <option value="non-driver">Tanpa Supir (Lepas Kunci)</option>
+          </select>
+        </div>
+
+        <div class="w-56">
+          <label class="mb-2 block text-sm">Tanggal</label>
+          <input type="date" class="h-12 w-full border rounded-lg text-sm" id="date" />
+        </div>
+
+        <div class="w-56">
+          <label class="mb-2 block text-sm">Waktu Jemput/Ambil</label>
+          <select placeholder="Pilih Waktu" class="h-12 w-full border rounded-lg text-sm px-3" id="time">
+            <option selected="" class="text-gray-500">Pilih Waktu</option>
+            <option value="08:00:00">08.00</option>
+            <option value="09:00:00">09.00</option>
+            <option value="10:00:00">10.00</option>
+            <option value="11:00:00">11.00</option>
+          </select>
+        </div>
+
+        <div class="w-56">
+          <label class="mb-2 block text-sm">Jumlah Penumpang (Optional)</label>
+          <input type="number" class="h-12 w-full border rounded-lg text-sm" id="passanger" />
+        </div>
+
+        <button type="submit" class="h-[36px] w-[92px] bg-green-600 hover:bg-green-900 text-white font-bold rounded text-sm md:my-10 my-2" id="load-btn">Cari Mobil</button>
+      </div>
+    </section>
+    <!-- /FilterCar -->
+    <!-- Card -->
+    <section id="cars-container" class="container mx-auto flex flex-wrap justify-evenly"></section>
+    <!-- /Card -->
+    <!-- Footer -->
+    <section id="footer" class="mt-12 mb-12">
+      <div class="container mx-auto px-5 md:flex md:justify-between">
+        <div class="font-light text-[14px] mt-5">
+          <p class="mb-4">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p class="mb-4">binarcarrental@gmail.com</p>
+          <p class="mb-4">081-233-334-808</p>
+        </div>
+        <div class="flex flex-col mt-5 font-bold text-[14px]">
+          <a href="#service" class="mb-4">Our Services</a>
+          <a href="#whyus" class="mb-4">Why Us</a>
+          <a href="#testimonial" class="mb-4">Testimonial</a>
+          <a href="#faq" class="">FAQ</a>
+        </div>
+        <div class="font-light text-[14px] mt-5">
+          <p class="mb-4">Connect with us</p>
+          <img src="assets/icon/list_item.png" alt="" class="w-[224px] h-[32px]" />
+        </div>
+        <div class="font-light text-[14px] mt-5">
+          <p class="mb-4">Copyright Binar 2024</p>
+          <img src="assets/img/rectangle.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- /Footer -->
+    <!-- Script Preline -->
+    <script src="./node_modules/preline/dist/preline.js"></script>
+
+    <!-- Script Binar -->
+    <script type="text/javascript" src="./scripts/app.example.js"></script>
+    <script type="text/javascript" src="./scripts/binar.js"></script>
+    <script type="text/javascript" src="./scripts/car.example.js"></script>
+    <script type="text/javascript" src="./scripts/main.example.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./scripts/scripts.js"></script>
+  </body>
+</html>
